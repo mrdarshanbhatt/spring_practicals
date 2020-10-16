@@ -1,0 +1,17 @@
+# Ignore .settings Directory
+.settings/
+.metadata/
+bin/
+.mvn/
+
+# Ignore .classpath file
+.classpath
+.project
+
+# Ignore .class file
+*.class
+
+HELP.md
+mvnw.cmd
+mvnw
+
