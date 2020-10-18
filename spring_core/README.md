@@ -1,4 +1,4 @@
-# Spring Toturial 
+# spring_core
 # Spring 2.4.0 SNAPSHOT : JAVA 1.8
 
 
