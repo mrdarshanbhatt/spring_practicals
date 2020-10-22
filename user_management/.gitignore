@@ -1,0 +1,16 @@
+# Remove Folders
+
+.mvn/
+.settings/
+target/
+target/
+
+# Remove Files
+.classpath
+.factorypath
+.project
+.apt_generated
+mvnw
+
+# Remove .cmd Type file
+*.cmd
