@@ -1,7 +1,10 @@
-# Getting Started
+# 🎉  user_management 🎉
 
-### Reference Documentation
-For further reference, please consider the following sections:
+1. Here, I create Common User Management Project for practice purpose and try to explore Spring boot all features. all features are [Here](https://github.com/mrbhatt-88/spring_practicals/blob/master/spring_core/README.md)
+
+2. In User Management Project use Spring boot, JSP, MySQL, JSTL, JPA etc
+
+## Reference Documentation
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.0-SNAPSHOT/maven-plugin/reference/html/)
@@ -10,8 +13,7 @@ For further reference, please consider the following sections:
 * [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#boot-features-jpa-and-spring-data)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
 
-### Guides
-The following guides illustrate how to use some features concretely:
+## Guides
 
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 * [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
