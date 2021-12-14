@@ -28,7 +28,13 @@ import com.mvc.service.PasswordManager;
 import com.mvc.service.SendMailService;
 import com.mvc.service.UserService;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
+
 @Controller
+@Api(tags = {"/user"},description = "This API used User account managment")
 public class UserController {
 
 	@Autowired
@@ -49,6 +55,11 @@ public class UserController {
 	String exception = null;
 
 	// Display home Page all Functionality are show
+	@ApiOperation(nickname = "landing",notes = "API used for landing on home page", value = "/home")
+	@ApiResponses(value = {
+			@ApiResponse(code = 200, message = "Success | OK"),
+			@ApiResponse(code = 404, message = "Path not found")
+	})
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String login() {
 
