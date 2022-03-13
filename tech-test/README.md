@@ -21,3 +21,7 @@ Below Step Explain the How to create docker image, run and push on **Docker HUB*
 * Tagged the image  : docker tag username/imagename:latest localImageName:localImageTag
 * Push Image on Docker : docker push username/imagename:latest
 
+## Project Has test case and also measure the codecoverage with JACOCO
+
+* You can Deep Dive in JACOCO plugin visit [Here](https://www.lambdatest.com/blog/reporting-code-coverage-using-maven-and-jacoco-plugin/)
+

@@ -45,8 +45,8 @@ public class FavouriteCountryService {
             return new ResponseDto(HttpStatus.SC_OK, true, "Your Country added Successfully...", favouriteCountryDto);
         } catch (Exception e) {
             LOGGER.log(Level.FINE, "Unknown error Occurred during create the Your Country");
+            return new ResponseDto(HttpStatus.SC_INTERNAL_SERVER_ERROR, false, "Internal Server Error");
         }
-        return new ResponseDto();
     }
 
 

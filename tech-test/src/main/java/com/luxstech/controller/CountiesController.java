@@ -53,7 +53,7 @@ public class CountiesController {
             @ApiImplicitParam(name = "password", value = "admin",
                     required = true, dataType = "string", paramType = "header")})
     @PostMapping(value = "/countryByRegion")
-    public ResponseDto getAllCountry(@RequestParam String regionName) {
+    public ResponseDto getAllCountryByRegion(@RequestParam String regionName) {
         List<String> countryList = countryService.fetchCountryByRegion(regionName);
         if (!countryList.isEmpty()) {
             return new ResponseDto(HttpStatus.SC_OK, true, "Below listed country are belong from " + regionName, countryList);
